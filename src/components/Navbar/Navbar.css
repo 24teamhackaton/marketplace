@@ -6,11 +6,15 @@
 .navBar-elements {
     display: flex;
     justify-content: center;
+    width: 100%;
+   
 }
 .navBar-elements h3{
+    
     margin:8vh;
+    cursor: pointer;
 }
-.navBar-line{
+.navBar-line {
 position: absolute;
 width: 100%;
 height: 0px;

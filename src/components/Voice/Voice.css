@@ -1,0 +1,44 @@
+.voice {
+    width: 100%;
+    background-image: url('../Voice/Img-Voice/Img-Voice.png');
+    height: 75vh;
+    display: flex;
+    justify-content: flex-start;   
+}
+.voice-phrase {
+    padding-top: 6vh;
+    margin-left: 1vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20vw;
+
+
+}
+.voice-phrase h2{
+    margin: 0;
+    font-size: 5vh;
+
+}
+.voice-buttons{
+    display: flex;
+    margin-top: 5vh;
+    
+}
+.voice-buttons button{
+    height: 4vh;
+    width: 6vw;
+    margin:1vh;
+    color:aliceblue;
+    border-radius: 8%;
+    border:none;
+    cursor: pointer;
+
+}
+.voice-buttons-moreInfo{
+    background-color: #955BE7;
+}
+.voice-buttons-voices{
+    background-color: #54BAB9;
+}
