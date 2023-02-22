@@ -3,4 +3,16 @@
     border-radius: 15px;
     width: 259px;
     Height: 287px;
+    display: flex;
+    justify-content: center;
+}
+.playButton{
+    background-color: transparent;
+    border:none;
+}
+
+.audioControl {
+  justify-content: center;
+  align-items: center;
+  width: 70px;
 }
