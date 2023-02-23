@@ -5,7 +5,6 @@ import SectionHeading from "../../components/SectionHeading/SectionHeading";
 import InputText from "../../components/InputText/InputText";
 import Voice from "../../components/Voice/Voice";
 import ButtonUp from "../../components/ButtonUp/ButtonUp";
-import Wave from "../../components/Wave/Wave"
 import Work from "../../components/Work/Work";
 
 const Home = () => {
