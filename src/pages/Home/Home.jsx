@@ -6,6 +6,7 @@ import Voice from "../../components/Voice/Voice";
 import ButtonUp from "../../components/ButtonUp/ButtonUp";
 import Work from "../../components/Work/Work";
 import CustomerReviewsSection from "../../components/CustomerReviewsSection/CustomerReviewsSection";
+import Faqs from "../../components/Faqs/Faqs";
 
 const Home = () => {
   return (
@@ -17,9 +18,6 @@ const Home = () => {
       <SectionHeading title="Work with us" />
       <Work />
       <SectionHeading title="Customer reviews" />
-      <CustomerReviewsSection />
-      <SectionHeading title="FAQ" />
-      <ButtonUp/>
     </>
   )
 
