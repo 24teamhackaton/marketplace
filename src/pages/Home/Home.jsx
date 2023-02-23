@@ -15,12 +15,12 @@ const Home = () => {
       <InputText placeholderText="Search" />
       <BestSellersSection />
       <SectionHeading title="Work with us" />
-      <Work />
+      {/* <Work /> */}
       <SectionHeading title="Customer reviews" />
-      <CustomerReviewsSection />
-      <SectionHeading title="FAQ" />
+      
+      {/* <SectionHeading title="FAQ" />
       <ButtonUp />
-      <Faqs />
+      <Faqs /> */}
     </>
   );
 };
