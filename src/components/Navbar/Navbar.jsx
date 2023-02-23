@@ -76,7 +76,6 @@ const Navbar = () => {
           </h3>
         </nav>
       </header>
-      <Voice />
     </>
   );
 };

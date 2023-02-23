@@ -58,7 +58,8 @@ border-radius: 0.5rem;
 }
 
 .hide {
-display: none;
+    width:100%;
+    display: none;
 }
 
 
@@ -78,4 +79,29 @@ button {
     justify-content: center;
     align-items: center;
 }
+}
+
+@media (max-width: 1200px) {
+    button {
+        font-size: 1rem;
+    }
+
+    .acord span {
+        font-size: 1.2rem;
+        font-size: clamp(0.2rem, 1rem, 1.5rem);
+    }
+
+    .show {
+        padding: 0.5rem;
+    }
+
+    .acord {
+        width: 100vw;
+    }
+
+    .faqsComponent {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
