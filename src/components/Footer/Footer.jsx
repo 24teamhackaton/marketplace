@@ -14,8 +14,8 @@ import { faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
 const Footer = () => {
     return (
         <footer id="Footer" className="containerFooter">
-            <div class="footerRow">
-                <div class="footerColumn">
+            <div className="footerRow">
+                <div className="footerColumn">
                     <img id="infoWhiteLogo"
                             src={ WhiteLogo }
                             alt="White logo from Real Dream Voices"
@@ -30,7 +30,7 @@ const Footer = () => {
                         </Link>
                 </div>
 
-                <div class="footerColumn">
+                <div className="footerColumn">
                     <h3 className="footerTitle">
                         Contact
                     </h3>
@@ -44,7 +44,7 @@ const Footer = () => {
                     </ul>
                 </div>
 
-                <div class="footerColumn">
+                <div className="footerColumn">
                     <h3 className="footerTitle">
                         Social media
                     </h3>
@@ -66,7 +66,7 @@ const Footer = () => {
                         </button>
                 </div>
 
-                <div class="footerColumn">
+                <div className="footerColumn">
                     <p id="copyrightText">© Copyright 2023 Real Dream Voices</p>
                 </div>
             </div>
