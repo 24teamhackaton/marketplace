@@ -49,7 +49,7 @@
   margin-bottom: 40px;
 }
 
-@media (min-width: 380px) {
+@media screen and (max-width:760px) {
   .horizontal-card-work {
     display: flex;
     align-items: center;
