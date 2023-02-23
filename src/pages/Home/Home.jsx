@@ -18,6 +18,10 @@ const Home = () => {
       <SectionHeading title="Work with us" />
       <Work />
       <SectionHeading title="Customer reviews" />
+      <CustomerReviewsSection />
+      <SectionHeading title="FAQ" />
+      <ButtonUp/>
+      <Faqs/>
     </>
   )
 
