@@ -34,7 +34,7 @@ It is known to all that the eyes are the mirror of the soul, but the voice is th
 
 ## 👩‍💻Group members:
 
-+ Christian CarbajoGarcía https://github.com/ChristianCarbajo
++ Christian CarbajoGarcía https://github.com/ChristianCarbajo **Scrum Master**
 + Alejandra Pedroza https://github.com/ale1900
 + Joel Herrero https://github.com/letjoel **Product Owner**
 + Ana García Arnaiz https://github.com/anagararna
