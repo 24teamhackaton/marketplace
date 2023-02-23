@@ -1,4 +1,3 @@
-import ReviewCard from "../../components/ReviewCards/ReviewCard";
 import "./Home.css";
 import BestSellersSection  from "../../components/BestSellersSection/BestSellersSection";
 import SectionHeading from "../../components/SectionHeading/SectionHeading";

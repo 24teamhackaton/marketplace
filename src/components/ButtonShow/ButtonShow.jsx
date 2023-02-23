@@ -1,9 +1,9 @@
 import React from "react";
 import "./ButtonShow.css";
 
-function ButtonShow() {
+function ButtonShow({text}) {
   return (
-    <button className="SoundSection">Show more</button>
+    <button className="SoundSection">{text}</button>
   )
 }
 
