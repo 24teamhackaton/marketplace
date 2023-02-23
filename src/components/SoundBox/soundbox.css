@@ -39,11 +39,12 @@
 .soundBox-title{
   color: var(--violet-color);
   font-size: 1.2rem;
-    width: 100%;
-      font-size: .9rem;
-      white-space: nowrap;
-      text-overflow: ellipsis;
-      overflow: hidden;
+  width: 100%;
+  font-size: .9rem;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  cursor: pointer;
 }
 .soundBox-stars{
   height: 14px;

@@ -24,6 +24,15 @@ height: 10vh;
 .navBar-link:hover{
     color: var(--violet-color);
 }
+.navBar-link:active, .navBar-link:visited{
+    color: white;
+}
+.navBar-link:active:hover,
+.navBar-link:visited:hover,
+.navBar-link:visited:link {
+    color:var(--violet-color);
+    text-decoration: none;
+}
 .navBar-line {
 margin-top: 5vh;    
 width: 100%;

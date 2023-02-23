@@ -2,6 +2,7 @@ import React from "react";
 import "./Navbar.css";
 import logo from "./Img-Nav/Logo.svg";
 import { Link } from "react-scroll";
+import { NavLink } from "react-router-dom";
 import HamburgerIcon from "./Img-Nav/HamburgerIcon.png";
 import { useState } from "react";
 import Voice from "../../components/Voice/Voice";
@@ -23,17 +24,9 @@ const Navbar = () => {
         </button>
         <nav className={`navBar-elements ${menu ? "isActive" : ""}`}>
           <h3>
-            <Link
-              className="navBar-link"
-              activeClass="active"
-              to=""
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-            >
+            <NavLink className="navBar-link" to="/">
               Home
-            </Link>
+            </NavLink>
           </h3>
           <h3>
             <Link
