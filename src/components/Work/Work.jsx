@@ -1,13 +1,14 @@
 import React from "react";
 import "./Work.css";
-import image from "./img-work.png";
+import Image from "./img-work.png";
+import ButtonShow from "../ButtonShow/ButtonShow"
 
 function Work() {
   return (
     <>
       <div id="workWithUs" className="container-work">
          <div className="horizontal-card-work">
-          <img src={image} width="50%" alt="voice" />
+          <img src={Image} width="50%" alt="voice" />
           <div className="card-text-work">
             <h2 className="title-work">Sell your voice</h2>
             <h3 className="subtitle-work">Subtitle</h3>
@@ -17,7 +18,7 @@ function Work() {
               ever since the 1500s,
             </p>
             <div className="moreinfo">
-              <button className="button-work">More info</button>
+              <ButtonShow text="More info"/>
             </div>
           </div>
         </div>
