@@ -9,6 +9,9 @@
     margin: 20px 0;
     outline: none;
     color: white;
+    border: 1px solid var(--violet-color);
+    padding: 10px 20px;
+    border-radius: .8rem;
 }
 .contactForm-form>input::placeholder{
     color: white;
