@@ -7,7 +7,11 @@ import { useState } from "react";
 const Detail = ({selectedVoice}) => {
 
   const [isContact, setIsContact] = useState(false)
+  
+  let params = (new URL(document.location)).searchParams;
+  let productId = params.get('id')
 
+   
   const handleClick = (e) => {
     console.log("hola");
     e.preventDefault();
