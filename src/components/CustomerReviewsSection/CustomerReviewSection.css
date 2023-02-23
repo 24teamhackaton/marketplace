@@ -22,25 +22,18 @@
     background: var(--gradient);
     border-radius: 20px;
 }
-@media (min-width: 380px) {
-    
-    .customerReviewSection .customerReviewSection-wrapper {
-            width: 80%;
-            display: flex;
-            flex-direction: row;
-            justify-content: space-around;
-            align-items: center;
-            flex-wrap: wrap;
-    }
-    .customerReviewSection-wrapper .customerReviewSection-reviewCard-wrapper{
-            width: 45%;
-            height: 40vh;
-    }
-}
+
 @media (min-width: 850px) {
 
+    .customerReviewSection .customerReviewSection-wrapper {
+        width: 70%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: wrap;
+    }
     .customerReviewSection-wrapper .customerReviewSection-reviewCard-wrapper{
-            width: 30%;
-            height: 30vh;
+        width: 30%;
+        height: 40vh;
     }
 }
