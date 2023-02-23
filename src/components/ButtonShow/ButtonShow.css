@@ -1,0 +1,15 @@
+.SoundSection{
+    width: 125px;
+    height: 40px;
+    text-align:center;
+    background: var(--gradient);
+    border-radius: .5rem;
+    border: none;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+    margin: 35px 0;
+    }
+.SoundSection:hover{
+    background: var(--blue-color);
+}

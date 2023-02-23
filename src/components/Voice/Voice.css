@@ -1,0 +1,40 @@
+.voice {
+    width: 100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('../Voice/Img-Voice/Img-Voice.png');
+    height: 75vh;
+      
+}
+.voice-phrase {
+    padding-top: 20vh;
+    margin-left: 5vw;
+    
+}
+.voice-phrase h2{
+  margin: 1vh;
+    font-size: 4vh;
+
+}
+.voice-buttons{
+    display: flex;
+    margin-top: 5vh;
+    
+}
+.voice-buttons button{
+    height: 4vh;
+    
+    margin:1vh;
+    color:aliceblue;
+    border-radius: 8%;
+    border:none;
+    cursor: pointer;
+
+}
+.voice-buttons-moreInfo{
+    background-color: #955BE7;
+}
+.voice-buttons-voices{
+    background-color: #54BAB9;
+}
+
