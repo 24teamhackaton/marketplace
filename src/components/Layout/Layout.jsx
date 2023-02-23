@@ -7,7 +7,6 @@ import Voice from "../Voice/Voice";
 import ButtonUp from "../ButtonUp/ButtonUp";
 import Wave from "../Wave/Wave"
 
-
 export const Layout = () => {
   return (
     <>
