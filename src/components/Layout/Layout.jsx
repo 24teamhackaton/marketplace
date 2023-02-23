@@ -4,7 +4,6 @@ import Footer from "../Footer/Footer";
 import styles from "./Layout.css";
 
 
-
 export const Layout = () => {
   return (
     <>
