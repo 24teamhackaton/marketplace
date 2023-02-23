@@ -1,57 +1,64 @@
-import React from "react";
-import "./soundbox.css";
-import play from "./logosBox/play.png";
-// import stop from "./logosBox/stop.png";
-// import pause from "./logosBox/pause.png";
-import ReactAudioPlayer from 'react-audio-player';
-import Audio from './logosBox/prueba.wav';
+import { useRef } from "react";
+import "./Soundbox.css";
 import { useState } from "react";
+import wavesImg from '../../assets/waves.gif'
+import playButton from "../../assets/buttonPlay.png";
+import {imageUrls} from '../../data/imageUrls'
+import oneStarImg from "../../assets/1star.png";
+import twoStarImg from "../../assets/2stars.png";
+import threeStarImg from "../../assets/3stars.png";
+import fourStarImg from "../../assets/4stars.png";
+import fiveStarImg from "../../assets/5stars.png";
+import data from "../../data/dataVoices.json";
 
 function SoundBox() {
 
-  const backgrounds = [
-    "https://images.unsplash.com/photo-1621791554700-35b52803f596?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
-    "https://images.unsplash.com/photo-1620503266076-5fd971fdd572?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
-    "https://images.unsplash.com/photo-1621193596485-90a3c38023f5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
-    "https://images.unsplash.com/photo-1557264322-b44d383a2906?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YWJzdHJhY3QlMjBkYXJrfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=1000&q=60",
-    "https://plus.unsplash.com/premium_photo-1673193079530-6a3ca525fe1f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8YWJzdHJhY3QlMjBkYXJrfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=1000&q=60",
-    "https://images.unsplash.com/photo-1526289034009-0240ddb68ce3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fGFic3RyYWN0JTIwZGFya3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1000&q=60",
-    "https://images.unsplash.com/photo-1597177331064-2990be8887fe?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjZ8fGFic3RyYWN0JTIwZGFya3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1000&q=60",
-    "https://images.unsplash.com/photo-1514771206769-bd41b0138cc0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzZ8fGFic3RyYWN0JTIwZGFya3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1000&q=60",
-    "https://images.unsplash.com/photo-1563089145-599997674d42?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDJ8fGFic3RyYWN0JTIwZGFya3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1000&q=60",
-    "https://images.unsplash.com/photo-1574281193679-789c4602b15c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTZ8fGFic3RyYWN0JTIwZGFya3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1000&q=60",
-    "https://images.unsplash.com/photo-1542736488-1967b42fcf54?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8ODZ8fGFic3RyYWN0JTIwZGFya3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1000&q=60",
-    "https://images.unsplash.com/photo-1617994452722-4145e196248b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8ODJ8fGFic3RyYWN0JTIwZGFya3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1000&q=60",
-    "https://images.unsplash.com/photo-1516491575772-bab9f75948c0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTQ3fHxhYnN0cmFjdCUyMGRhcmt8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
-    "https://images.unsplash.com/photo-1559291001-693fb9166cba?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDZ8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
-    "https://images.unsplash.com/photo-1565799557186-1abfed8a31e5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDEwfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60"
-    ];
+  //Random bg image
+  const randomIndex = Math.floor(Math.random() * imageUrls.length);
+  const backgroundImage = `url(${imageUrls[randomIndex]})`;
 
-  const [state, setState] = useState(false);
-  const randomIndex = Math.floor(Math.random() * backgrounds.length);
-  const backgroundImage = `url(${backgrounds[randomIndex]})`;
-  const handelPlayClic =()=>{
-    setState(!state);
+  const [bgImage, setBgImage] = useState(backgroundImage)
+
+  //Data import
+  const randomIndexData = Math.floor(Math.random() * data.length); 
+  const [dataSelected, setdataSelected] = useState(data[randomIndexData])
+  //Audio controller
+
+   const [state, setState] = useState(false);
+
+  const audioRef = useRef();
+  const audioPlay = ()=>{
+      audioRef.current.play();
   }
-return (
-  <div className="box" onClick={handelPlayClic} style={{backgroundImage}}>
-    {state ?
-      <ReactAudioPlayer
-        className="audioControl"
-        src={Audio}
-        style={{
-          width: '100%',
-          color:'red',
-          padding: '10px',
-          borderRadius: '5px',
-          boxShadow: '0px 0px 5px rgba(0, 0, 0, 0.3)',
-        }}
-        controls
-      />
-      :<button className="playButton" ><img src={play}/></button>  
+  const handlPlayClick =(event)=>{
+    event.stopPropagation()
+    setState(!state);
+    if (state) {
+      audioPlay()
     }
-    
-  </div>
+  }
+
+  //Stars
+  const starsImgArray = [oneStarImg, twoStarImg, threeStarImg, fourStarImg, fiveStarImg]
+
+return (
+  <article className="soundBox-article">
+    <div className="box" onClick={handlPlayClick} style={{backgroundImage: bgImage}}>
+      {state ?
+        <>
+          
+          <audio ref={audioRef} autoPlay src="/audios/prueba.wav" onEnded={handlPlayClick}></audio>
+          <img className="waveImg" src={wavesImg} alt="waves" />
+        </>
+        : <button className="playButton" ><img src={playButton} alt="play"/></button>  
+      }
+    </div>
+    <div className="soundBox-firstLine">
+      <p className="soundBox-title">{dataSelected ? dataSelected.title : null}</p>
+      <img className="soundBox-stars" src={starsImgArray[dataSelected.score-1]} alt="star review" />
+    </div>
+    <p className="soundBox-subtitle">{dataSelected ? dataSelected.description : null}</p>
+  </article>
 );
 
 

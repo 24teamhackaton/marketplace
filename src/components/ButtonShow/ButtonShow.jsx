@@ -7,4 +7,4 @@ function ButtonShow() {
   )
 }
 
-export default SoundSection  
+export default ButtonShow  
