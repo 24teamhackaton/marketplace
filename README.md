@@ -1,4 +1,6 @@
 ## 💡Project name: 
+![image](https://user-images.githubusercontent.com/116561400/220911734-89e68e52-5e1f-4964-8e0f-ad4dc955cc0c.png)
+
 **REAL DREAM Voices**
 
 Take their voices, change your life
@@ -9,9 +11,10 @@ It is known to all that the eyes are the mirror of the soul, but the voice is th
 
 ## 📸Screenshots:
 
-| Figma | Trello |
-| :---: | :---: |	
-|<img src="https://user-images.githubusercontent.com/116561400/220866006-87687e3c-4447-40e3-8115-b645bf787484.png" width="50%"> |<img src="https://user-images.githubusercontent.com/116561400/220866213-4f8d57d5-567d-4f8d-a8d8-17ac167cc147.png" width="50%"> |
+| Figma | Trello | Demor |
+| :---: | :---: | :---: |
+|<img src="https://user-images.githubusercontent.com/116561400/220866006-87687e3c-4447-40e3-8115-b645bf787484.png" width="50%"> |<img src="https://user-images.githubusercontent.com/116561400/220866213-4f8d57d5-567d-4f8d-a8d8-17ac167cc147.png" width="50%"> | <img src="https://user-images.githubusercontent.com/116561400/221018441-6e3194d5-8f75-4d61-a5a8-5e6c5e992391.png" width="50%"> |
+
 		
 
 ## 🔧Stacks:
@@ -35,13 +38,13 @@ It is known to all that the eyes are the mirror of the soul, but the voice is th
 ## 👩‍💻Group members:
 
 + Christian CarbajoGarcía https://github.com/ChristianCarbajo **Scrum Master**
-+ Alejandra Pedroza https://github.com/ale1900
++ Alejandra Pedroza https://github.com/ale1900 Developer
 + Joel Herrero https://github.com/letjoel **Product Owner**
-+ Ana García Arnaiz https://github.com/anagararna
-+ David R Daza Z https://github.com/drdaza
-+ Sara Álvarez https://github.com/saralvz
-+ Ana Garrido https://github.com/AnaGarridoCoder
-+ Flor Tiscornia https://github.com/FlorTiscornia
++ Ana García Arnaiz https://github.com/anagararna Developer
++ David R Daza Z https://github.com/drdaza Developer
++ Sara Álvarez https://github.com/saralvz Developer
++ Ana Garrido https://github.com/AnaGarridoCoder Developer
++ Flor Tiscornia https://github.com/FlorTiscornia Developer
 
 ## 💻How to install this project
 
@@ -49,7 +52,7 @@ It is known to all that the eyes are the mirror of the soul, but the voice is th
 ```bash
  git clone https://github.com/24teamhackaton/marketplace.git
 ```
-2. 
+2. Start command
 ```
  npm i
 ```
@@ -63,7 +66,12 @@ Run the npm start command to run the React app. It will automatically open the l
 - Mob Programming.
 - Pair Programming.
 - TDD.
-- 
-
 
 ## 🧪Next Steps:
+	+ increase the number of voices available
+	+ add login
+	+ add memberships
+	+ BBDD
+	
+
+
