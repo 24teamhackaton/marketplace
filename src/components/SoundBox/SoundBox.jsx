@@ -44,7 +44,7 @@ return (
       {state ?
         <>
           
-          <audio ref={audioRef} autoPlay src="/audios/prueba.wav" onEnded={handlPlayClick}></audio>
+          <audio ref={audioRef} autoPlay src={dataSelected.audio_file} onEnded={handlPlayClick}></audio>
           <img className="waveImg" src={wavesImg} alt="waves" />
         </>
         : <button className="playButton" ><img src={playButton} alt="play"/></button>  

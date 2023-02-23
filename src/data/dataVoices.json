@@ -6,7 +6,8 @@
     "author": "Isabella Rossi",
     "type": "Tenor",
     "author_bg": "https://images.unsplash.com/photo-1621791554700-35b52803f596?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
-    "score": 3
+    "score": 3,
+    "audio_file": "/audios/ALEJANDRA.wav"
   },
   {
     "id": 2,
@@ -15,7 +16,8 @@
     "author": "John Ideep",
     "type": "Bass",
     "author_bg": "https://images.unsplash.com/photo-1620503266076-5fd971fdd572?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
-    "score": 5
+    "score": 5,
+    "audio_file": "/audios/AMAIA.wav"
   },
   {
     "id": 3,
@@ -24,7 +26,8 @@
     "author": "Luna Moon",
     "type": "Mezzosoprano",
     "author_bg": "https://images.unsplash.com/photo-1621193596485-90a3c38023f5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
-    "score": 2
+    "score": 2,
+    "audio_file": "/audios/ANA-GARCIA.wav"
   },
   {
     "id": 4,
@@ -33,7 +36,8 @@
     "author": "Max Steele",
     "type": "Contralto",
     "author_bg": "https://images.unsplash.com/photo-1557264322-b44d383a2906?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YWJzdHJhY3QlMjBkYXJrfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=1000&q=60",
-    "score": 4
+    "score": 4,
+    "audio_file": "/audios/FLOR.wav"
   },
   {
     "id": 5,
@@ -42,7 +46,8 @@
     "author": "Aria Sky",
     "type": "Soprano",
     "author_bg": "https://images.unsplash.com/photo-1526289034009-0240ddb68ce3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fGFic3RyYWN0JTIwZGFya3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1000&q=60",
-    "score": 5
+    "score": 5,
+    "audio_file": "/audios/SARA.wav"
   },
   {
     "id": 6,
@@ -51,7 +56,8 @@
     "author": "Johnny Blaze",
     "type": "Baritone",
     "author_bg": "https://images.unsplash.com/photo-1597177331064-2990be8887fe?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjZ8fGFic3RyYWN0JTIwZGFya3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1000&q=60",
-    "score": 3
+    "score": 3,
+    "audio_file": "/audios/JOEL.wav"
   },
   {
     "id": 7,
@@ -60,7 +66,8 @@
     "author": "Frankie Blue",
     "type": "Tenor",
     "author_bg": "https://images.unsplash.com/photo-1514771206769-bd41b0138cc0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzZ8fGFic3RyYWN0JTIwZGFya3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1000&q=60",
-    "score": 4
+    "score": 4,
+    "audio_file": "/audios/CHRISTIAN.wav"
   },
   {
     "id": 8,
@@ -69,7 +76,8 @@
     "author": "Mia Amore",
     "type": "Soprano",
     "author_bg": "https://images.unsplash.com/photo-1563089145-599997674d42?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDJ8fGFic3RyYWN0JTIwZGFya3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1000&q=60",
-    "score": 4
+    "score": 4,
+    "audio_file": "/audios/ANA-GARRIDO.wav"
   },
   {
     "id": 9,
@@ -78,6 +86,7 @@
     "author": "Dominic Power",
     "type": "Bass",
     "author_bg": "https://images.unsplash.com/photo-1574281193679-789c4602b15c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTZ8fGFic3RyYWN0JTIwZGFya3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1000&q=60",
-    "score": 2
+    "score": 2,
+    "audio_file": "/audios/DAVID.wav"
   }
 ]
