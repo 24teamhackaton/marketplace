@@ -14,8 +14,13 @@ import data from "../../data/dataVoices.json";
 function SoundBox({id}) {
 
   //Data import
-  const indexData = data[id-1]; 
+  const indexData = data[id-1];
   const [dataSelected, setdataSelected] = useState(indexData)
+  
+  function Voice (){ 
+     localStorage.setItem("id",JSON.stringify(indexData))
+     
+   }
   
   //Random bg image 
   const [bgImage, setBgImage] = useState(`url(${dataSelected.author_bg})`)
@@ -51,7 +56,7 @@ return (
       }
     </div>
     <div className="soundBox-firstLine">
-      <p className="soundBox-title">{dataSelected ? dataSelected.title : null}</p>
+      <p onClick={Voice} className="soundBox-title">{dataSelected ? dataSelected.title : null}</p>
       <img className="soundBox-stars" src={starsImgArray[dataSelected.score-1]} alt="star review" />
     </div>
     <p className="soundBox-subtitle">{dataSelected ? dataSelected.description : null}</p>
