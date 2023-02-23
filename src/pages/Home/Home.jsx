@@ -13,6 +13,7 @@ const Home = () => {
       <SectionHeading title="Customer reviews" />
     </>
   )
+
 }
 
 export default Home
