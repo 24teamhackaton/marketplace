@@ -1,5 +1,5 @@
 .faqsComponent {
-    width: 100%;
+width: auto;
 }
 .titleF{
 justify-content: center;
@@ -10,7 +10,7 @@ justify-content: center;
     align-items: center;
 }
 
-.down .acord #down {
+.down .acord  {
 margin-left: auto;
 }
 
@@ -30,7 +30,7 @@ li.answer {
 }
   
 .acord {
-display: block;
+display: flex;
 width: 100%;
 background-color: black;
 color: white;
@@ -50,14 +50,10 @@ transition: background-color 0.3s ease;
 outline: none;
 }
 
-#answer2{
-    background-color: black;
-}
-
 .show {
 display: block;
 padding: 1rem;
-background-color: #f1f1f1;
+background:black;
 border-radius: 0.5rem;
 }
 
@@ -66,12 +62,20 @@ display: none;
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
 button {
     font-size: 1rem;
 }
 
 .show {
     padding: 0.5rem;
+}
+.acord {
+    width:100vw;
+}
+.faqsComponent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 }

@@ -14,11 +14,11 @@
 }
 .voice-phrase {
     height: 100%;
-    margin-left: 10vw;
     
 }
 .voice-phrase h2{
-
+font-size: 5vh;
+margin:1vh
 }
 .voice-buttons{
     display: flex;
@@ -64,6 +64,6 @@
         }
     
         .voice-phrase {
-            margin-left: 20vw;
+            margin-left: 30vw;
         }
 }

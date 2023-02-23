@@ -23,7 +23,7 @@ function Faqs () {
                             <span>Can I change my RDV voice?</span>
                             <FontAwesomeIcon  icon={faAngleDown} className={activeIndex === 0 ? 'rotate' : ''} />
                         </button>
-                        <div id="answer2" className={activeIndex === 0 ? 'show' : 'hide'}>
+                        <div  className={activeIndex === 0 ? 'show' : 'hide'}>
                             At Real Dream Voices we offer a 3-month return period and a lifetime guarantee at no additional cost.
                         </div>
                     </div>    
@@ -32,10 +32,10 @@ function Faqs () {
                     <div className="down">
                         <button className='acord' onClick={() => toggleAccordion(1)}>
                             <span>Renove Plan</span>
-                            <FontAwesomeIcon id="down" icon={faAngleDown} className={activeIndex === 0 ? 'rotate' : ''} />
+                            <FontAwesomeIcon  icon={faAngleDown} className={activeIndex === 0 ? 'rotate' : ''} />
                         </button>
                     </div>    
-                    <div id="answer2" className={activeIndex === 1 ? 'show' : 'hide'}>
+                    <div className={activeIndex === 1 ? 'show' : 'hide'}>
                        We know that in our lives we can feel identified with different voices, that's why for only $3,000/year you can change your voice up to two times.
                     </div>
                 </li>
@@ -43,10 +43,10 @@ function Faqs () {
                     <div className="down">
                         <button className='acord' onClick={() => toggleAccordion(2)}>
                             How do I get my voice?
-                            <FontAwesomeIcon id="down" icon={faAngleDown} className={activeIndex === 0 ? 'rotate' : ''} />
+                            <FontAwesomeIcon  icon={faAngleDown} className={activeIndex === 0 ? 'rotate' : ''} />
                         </button>
                     </div>    
-                        <div id="answer2" className={activeIndex === 2 ? 'show' : 'hide'}>
+                        <div  className={activeIndex === 2 ? 'show' : 'hide'}>
                         <span>To get the voice of your dreams, all you have to do is find the one that best suits you among the more than 10,000 that we have available in our library. Once you find it and make the payment, you can contact us to make the transfer from our servers to your MCD (Mental Connection Device).</span>
                     </div>
                 </li>
@@ -54,10 +54,10 @@ function Faqs () {
                     <div className="down">
                         <button className='acord' onClick={() => toggleAccordion(3)}>
                         <span>What requirements must my MCD (Mental Connection Device) have?</span> 
-                        <FontAwesomeIcon id="down" icon={faAngleDown} className={activeIndex === 0 ? 'rotate' : ''} />
+                        <FontAwesomeIcon  icon={faAngleDown} className={activeIndex === 0 ? 'rotate' : ''} />
                         </button>
                     </div>    
-                    <div id="answer2" className={activeIndex === 3 ? 'show' : 'hide'}>
+                    <div className={activeIndex === 3 ? 'show' : 'hide'}>
                         <br />
                         <br />
                         Minimum requirements:
