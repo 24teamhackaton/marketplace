@@ -22,7 +22,7 @@
     background: var(--gradient);
     border-radius: 20px;
 }
-@media (min-width: 480px) {
+@media (min-width: 380px) {
     
     .customerReviewSection .customerReviewSection-wrapper {
             width: 80%;
