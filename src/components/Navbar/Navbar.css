@@ -3,14 +3,19 @@
     margin:0;
     text-align: center;
 }
+.navBar-logo{
+margin-top: 3vh;    
+height: 10vh;
+
+}
 .navBar-elements {
+    margin-top: 2vh;
     display: flex;
     justify-content: center;
     width: 100%;
    
 }
 .navBar-elements h3{
-    
     margin:8vh;
     cursor: pointer;
 }

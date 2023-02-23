@@ -5,7 +5,9 @@
   --semiblack-color: #151618;
   --blue-color: #57B7BB;
   --gradient: linear-gradient(180deg, #955BE7 0%, #54BAB9 100%);
+  overflow-x: hidden;
 }
+
 
 body {
   font-family: 'Roboto', sans-serif;
@@ -14,6 +16,8 @@ body {
   width: 100%;
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  align-items: center;
 
 
 }
