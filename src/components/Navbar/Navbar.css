@@ -20,6 +20,9 @@ height: 10vh;
     margin:3vh;
     cursor: pointer;
 }
+.navBar-link:hover{
+    color: var(--violet-color);
+}
 .navBar-line {
 margin-top: 5vh;    
 width: 100%;

@@ -1,19 +1,17 @@
 import React from "react";
 import "./Navbar.css";
 import logo from "./Img-Nav/Logo.svg";
-import { Link, animateScroll as scroll } from "react-scroll";
-import HamburgerIcon from "./Img-Nav/HamburgerIcon.png"
+import { Link } from "react-scroll";
+import HamburgerIcon from "./Img-Nav/HamburgerIcon.png";
 import { useState } from "react";
 
-
 const Navbar = () => {
-  
-  const [menu,setMenu] = useState (false); 
+  const [menu, setMenu] = useState(false);
 
- function ToogleMenu(){
-   setMenu(!menu)
- }
-  
+  function ToogleMenu() {
+    setMenu(!menu);
+  }
+
   return (
     <header id="NavBar" className="navBar">
       <img className="navBar-logo" alt="company logo "src={logo}></img>
