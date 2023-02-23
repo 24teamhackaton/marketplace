@@ -1,3 +1,4 @@
+import ReviewCard from "../../components/ReviewCards/ReviewCard";
 import "./Home.css";
 import BestSellersSection  from "../../components/BestSellersSection/BestSellersSection";
 import SectionHeading from "../../components/SectionHeading/SectionHeading";
@@ -11,6 +12,7 @@ const Home = () => {
       <BestSellersSection/>
       <SectionHeading title="Work with us" />
       <SectionHeading title="Customer reviews" />
+
     </>
   )
 
