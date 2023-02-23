@@ -1,6 +1,7 @@
 .voice {
-    width: 100%;
-    background-image: url('../Voice/Img-Voice/Img-Voice.png');
+    width: 100vw;
+    background-size: cover;
+    background-image: url('../Voice/Img-Voice/Img-Voice.svg');
     height: 75vh;
     display: flex;
     justify-content: flex-start;   
