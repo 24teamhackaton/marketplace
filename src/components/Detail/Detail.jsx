@@ -1,18 +1,15 @@
 import "./Detail.css";
 import ButtonShow from "../ButtonShow/ButtonShow";
-import voiceAvatarImg from "../../assets/voice-avatar.png";
 import ContactForm from "../ContactForm/ContactForm";
 import { useState } from "react";
-import data from "../../data/dataVoices.json";
 
 const Detail = () => {
 
   const [isContact, setIsContact] = useState(false)
   
   
-  let productId = localStorage.getItem("id")
-  let selectedProduct = data.filter(item => item.id == productId)
-  let newVoice = selectedProduct[0]
+  let product = JSON.parse(localStorage.getItem("id"))
+  
   
    
   const handleClick = (e) => {
@@ -25,12 +22,12 @@ const Detail = () => {
     <section className="detail-section">
 
       <div className="detail-wrapper">
-        <div className="detail-img" style={{ backgroundImage: `url(${voiceAvatarImg})` }}></div>
+        <div className="detail-img" style={{ backgroundImage: `url(${product.author_bg})` }}></div>
         {isContact ? (<ContactForm />):(<div className="detail-card-wrapper">
-          <h1>{newVoice.title}</h1>
+          <h1>{product.title}</h1>
           
-          <h2>{newVoice.author}</h2>
-          <p>{newVoice.description}</p>
+          <h2>{product.author}</h2>
+          <p>{product.description}</p>
           <div onClick={handleClick}>
             <ButtonShow  text={"Contact"} />
           </div>
