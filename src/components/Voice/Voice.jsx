@@ -20,7 +20,7 @@ function Voice(){
               >More info</Link></button>
                 <button className='voice-buttons-voices'><Link
                 activeClass="active"
-                to="Footer"
+                to="soundBox"
                 spy={true}
                 smooth={true}
                 offset={-70}
