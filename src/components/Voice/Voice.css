@@ -23,7 +23,7 @@
 }
 .voice-buttons button{
     height: 4vh;
-    width: 6vw;
+    
     margin:1vh;
     color:aliceblue;
     border-radius: 8%;
@@ -37,3 +37,4 @@
 .voice-buttons-voices{
     background-color: #54BAB9;
 }
+

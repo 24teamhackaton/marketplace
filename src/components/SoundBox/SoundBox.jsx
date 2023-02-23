@@ -42,7 +42,7 @@ function SoundBox() {
   const starsImgArray = [oneStarImg, twoStarImg, threeStarImg, fourStarImg, fiveStarImg]
 
 return (
-  <article id="SoundBox" className="soundBox-article">
+  <article id="soundBox" className="soundBox-article">
     <div className="box" onClick={handlPlayClick} style={{backgroundImage: bgImage}}>
       {state ?
         <>
