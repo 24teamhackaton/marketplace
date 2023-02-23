@@ -5,6 +5,8 @@ import InputText from "../../components/InputText/InputText";
 import ButtonUp from "../../components/ButtonUp/ButtonUp";
 import CustomerReviewsSection from "../../components/CustomerReviewsSection/CustomerReviewsSection";
 import Faqs from "../../components/Faqs/Faqs";
+import Work from "../../components/Work/Work"
+
 
 const Home = () => {
   return (
@@ -13,7 +15,7 @@ const Home = () => {
       <InputText placeholderText="Search" />
       <BestSellersSection />
       <SectionHeading title="Work with us" />
-
+      <Work />
       <SectionHeading title="Customer reviews" />
       <CustomerReviewsSection />
       <SectionHeading title="FAQ" />

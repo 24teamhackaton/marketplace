@@ -2,6 +2,7 @@
     display: flex;
     justify-content: center;
     min-width: 100%;
+    margin-bottom: 10vh;
 }
 .detail-wrapper{
 display: flex;

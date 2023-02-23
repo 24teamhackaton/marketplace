@@ -1,19 +1,36 @@
-import "./Voice.css";
+import { Link, animateScroll as scroll } from "react-scroll";
+import './Voice.css';
 
-function Voice() {
-  return (
-    <div className="voice">
-      <div className="voice-phrase">
-        <h1>Take</h1>
-        <h1>their voices,</h1>
-        <h1>change</h1>
-        <h1>your life</h1>
-        <div className="voice-buttons">
-          <button className="voice-buttons-moreInfo">More info</button>
-          <button className="voice-buttons-voices">Voices</button>
+function Voice(){
+    return(
+        <div className='voice'>
+            <div className='voice-phrase'>
+            <h2>Take</h2>
+            <h2>their voices,</h2>
+            <h2>change</h2>
+            <h2>your life</h2>
+                <div className='voice-buttons'>
+                <button className='voice-buttons-moreInfo'><Link
+                activeClass="active"
+                to="faqs"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+              >More info</Link></button>
+                <button className='voice-buttons-voices'><Link
+                activeClass="active"
+                to="Footer"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+              >Voices</Link></button>
+            </div>    
+            </div>
         </div>
-      </div>
-    </div>
+      
+    
   );
 }
 
