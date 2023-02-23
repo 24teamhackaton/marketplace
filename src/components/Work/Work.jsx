@@ -5,7 +5,7 @@ import image from "./img-work.png";
 function Work() {
   return (
     <>
-      <div className="container-work">
+      <div id="workWithUs" className="container-work">
          <div className="horizontal-card-work">
           <img src={image} width="50%" alt="voice" />
           <div className="card-text-work">

@@ -1,0 +1,23 @@
+.contactForm-form{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.contactForm-form>input[type='text'],.contactForm-form>input[type='email']{
+    background-color: transparent;
+    width: 200px;
+    margin: 20px 0;
+    outline: none;
+    color: white;
+}
+.contactForm-form>input::placeholder{
+    color: white;
+}
+.contactForm-form>button {
+    cursor: pointer;
+    padding: 10px;
+}
+.contactForm-wrapper{
+    min-width: 66%;
+    padding: 15px 20px 10px 20px;
+}
