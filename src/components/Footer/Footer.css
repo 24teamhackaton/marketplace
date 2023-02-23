@@ -1,0 +1,99 @@
+.containerFooter {
+    display: flex;
+    flex-wrap: wrap;
+    background-image: linear-gradient(to right, #935FE6, #57B7BB);
+    padding: 20px;
+    justify-content: center;
+}
+
+.footerRow {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    align-items:flex-start;
+    justify-content: space-evenly
+}
+
+.footerColumn {
+    flex-basis: 30%;
+    text-align: center;
+}
+
+.footerTitle {
+    font-size: 1.5em;
+    margin: 2% 0% 2.5% 0%;
+}
+
+.contactOption {
+    list-style-type: none;
+    padding: 0;
+    line-height: 1.4em;
+    font-size: 0.9em;
+}
+
+.optionEmailTelephone {
+    display: flex;
+    gap: 0.5em;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttonMedia {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border-style: none;
+    margin-top: 2.1%;
+    color: #77757b;
+    margin-right: 2%;
+    margin-left: 2%;
+
+}
+
+.buttonMedia:hover {
+    color: #935FE6;
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+#infoWhiteLogo {
+    width: 65%;
+}
+
+#infoDescription {
+    font-size: 0.8em;
+    font-weight: 300;
+    line-height: 1.4em;
+}
+
+#infoTerms {
+    font-size: 0.9em;
+    font-weight: bold;
+}
+
+#infoTerms:hover {
+    color: #57B7BB;
+    cursor: pointer;
+}
+
+#copyrightText {
+    text-align: center;
+    font-size: 0.7em;
+    margin-top: 5%;
+    margin-bottom: 0%;
+}
+
+@media only screen and (max-width: 700px) {
+
+    .footerRow {
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+    }
+
+    .footerColumn {
+        flex-basis: 100%;
+        margin-bottom: 5%;
+        margin-top: 5%;
+    }
+}

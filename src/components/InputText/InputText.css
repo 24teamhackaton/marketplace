@@ -1,0 +1,52 @@
+.inputTextStandard-wrapper{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+.inputTextStandard{
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    color: white;
+    padding: 8px 35px;
+    
+}
+.inputTextStandard:focus {
+    outline: none;
+}
+.gradient-box {
+    display: flex;
+    align-items: center;
+
+    position: relative;
+    box-sizing: border-box;
+    color: #fff;
+    background: var(--semiblack-color);
+    background-clip: padding-box;
+    border: solid 5px transparent;
+    border-radius: 1em;
+}
+
+.gradient-box:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    margin: -2px;
+    border-radius: inherit;
+    background: var(--gradient);
+}
+.searchIcon {
+    height: 16px;
+    padding-left: 9px;
+}
+.searchIcon:hover, .filterIcon:hover {
+    cursor: pointer;
+}
+.filterIcon{
+    padding-right: 9px;
+}

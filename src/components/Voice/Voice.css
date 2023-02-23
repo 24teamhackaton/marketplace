@@ -1,0 +1,69 @@
+.voice {
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('../Voice/Img-Voice/Img-Voice.png');
+    height: 100%;
+    padding: 50px 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-position: 70% 30%;
+    
+}
+.voice-phrase {
+    height: 100%;
+    padding-left: 5vw;
+    
+}
+.voice-phrase h2{
+font-size: 5vh;
+margin:1vh
+}
+.voice-buttons{
+    display: flex;
+    margin-top: 5vh;
+    
+}
+.voice-buttons button{
+    height: 4vh;
+    
+    margin:1vh;
+    color:aliceblue;
+    border-radius: 8%;
+    border:none;
+    cursor: pointer;
+
+}
+.voice-buttons-moreInfo{
+    background-color: #955BE7;
+    padding: 10px 20px;
+}
+.voice-buttons-voices{
+    background-color: #54BAB9;
+    padding: 10px 20px;
+}
+.voice-buttons-voices:hover,.voice-buttons-moreInfo:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+@media (min-width: 768px) {
+    .voice {
+            width: 100vw;
+            
+            background-size: cover;
+            background-repeat: no-repeat;
+
+            height: 100%;
+            min-height: 400px;
+
+
+            background-position: center center;
+    
+        }
+    
+        .voice-phrase {
+            margin-left: 30vw;
+        }
+}
