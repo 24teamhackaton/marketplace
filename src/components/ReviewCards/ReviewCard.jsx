@@ -18,7 +18,9 @@ export default class ReviewCard extends Component {
         <div className='reviewCard-container'>
             <div className='avatar-stars-containter'>
                 <img className='reviewCard-avatarImage' src={image} alt="profile avatar" />
-                <img className='reviewCard-starsScore' src={starsImgArray[score-1]} alt="score review" />
+                <div className='starsContainer'>
+                  <img className='reviewCard-starsScore' src={starsImgArray[score-1]} alt="score review" />
+                </div>
             </div>
             <h3 className='reviewCard-userName'>{name}</h3>
             <div className='description-container'>
