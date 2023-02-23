@@ -8,7 +8,7 @@ export const Layout = () => {
   return (
     <>
       <Navbar />
-      <Voice />
+     
       <main className={styles.main}>
         <div className={styles.wrapper}>
           <Outlet />

@@ -6,11 +6,13 @@ import ButtonUp from "../../components/ButtonUp/ButtonUp";
 import CustomerReviewsSection from "../../components/CustomerReviewsSection/CustomerReviewsSection";
 import Faqs from "../../components/Faqs/Faqs";
 import Work from "../../components/Work/Work"
+import Voice from "../../components/Voice/Voice"
 
 
 const Home = () => {
   return (
     <>
+      <Voice/>
       <SectionHeading title="Best sellers" />
       <InputText placeholderText="Search" />
       <BestSellersSection />
