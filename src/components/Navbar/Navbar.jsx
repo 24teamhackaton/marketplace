@@ -1,5 +1,4 @@
-import React, { Component } from "react";
-import { NavLink } from "react-router-dom";
+import React from "react";
 import "./Navbar.css";
 import logo from "./Img-Nav/Logo.svg";
 import { Link, animateScroll as scroll } from "react-scroll";
@@ -17,12 +16,12 @@ const Navbar = () => {
   
   return (
     <header id="NavBar" className="navBar">
-      <img className="navBar-logo" src={logo}></img>
+      <img className="navBar-logo" alt="company logo "src={logo}></img>
       <div className="navBar-line"></div>
       <button onClick={ToogleMenu} className="navBar-button">
-              <img src={HamburgerIcon}></img>
+              <img src={HamburgerIcon} alt="icon hamburger"></img>
             </button>
-            <nav className={`navBar-elements${menu ? 'isActive' : ''}`}>
+            <nav className={`navBar-elements ${menu ? 'isActive' : ''}`}>
               <h3><Link
                 activeClass="active"
                 to=""
@@ -44,7 +43,7 @@ const Navbar = () => {
               spy={true}
               smooth={true}
               offset={-70}
-              duration={500}Work with us>Work with us</Link></h3>
+              duration={500}>Work with us</Link></h3>
               <h3><Link
               activeClass="active"
               to=""

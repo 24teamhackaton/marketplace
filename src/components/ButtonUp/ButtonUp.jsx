@@ -1,6 +1,6 @@
 import Vector from './Img-Vector/Vector.png'
 import './ButtonUp.css'
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link } from "react-scroll";
 
 function ButtonUp (){
 return(
@@ -13,7 +13,7 @@ return(
                 duration={500}
               >
     <div className='ButtonUp'>
-        <button className='ButtonUp-button'><img src={Vector}></img></button>
+        <button className='ButtonUp-button'><img src={Vector} alt="Icon to go up to the beginning"></img></button>
     </div></Link>
 )
 

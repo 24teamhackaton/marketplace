@@ -17,11 +17,11 @@ function SoundBox() {
   const randomIndex = Math.floor(Math.random() * imageUrls.length);
   const backgroundImage = `url(${imageUrls[randomIndex]})`;
 
-  const [bgImage, setBgImage] = useState(backgroundImage)
+  const [bgImage] = useState(backgroundImage)
 
   //Data import
   const randomIndexData = Math.floor(Math.random() * data.length); 
-  const [dataSelected, setdataSelected] = useState(data[randomIndexData])
+  const [dataSelected] = useState(data[randomIndexData])
   //Audio controller
 
    const [state, setState] = useState(false);
