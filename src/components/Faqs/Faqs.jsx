@@ -14,7 +14,8 @@ function Faqs () {
     };
   
     return (
-        <div id='faqs'>
+        
+        <div id='faqs' className='faqsComponent'>
             <ul className='faq'>
                 <li className ='answer'>
                     <div className="down">
