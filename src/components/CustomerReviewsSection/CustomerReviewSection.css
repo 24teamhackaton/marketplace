@@ -1,0 +1,23 @@
+.customerReviewSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.customerReviewSection-wrapper{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 480px) {
+    
+    .customerReviewSection-wrapper {
+            width: 60%;
+            display: flex;
+            flex-direction: column;
+            gap: 1vh;
+        }
+}

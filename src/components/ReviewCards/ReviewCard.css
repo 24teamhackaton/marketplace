@@ -1,16 +1,45 @@
 .reviewCard-container{
     display: grid;
+    width: 25%;
+    height: 30vh;
+    padding: 20px;
     grid-template: repeat(6, 1fr)/ 1fr;
     border: 1px solid;
-    border-radius: 20px;
     border-image: linear-gradient(#955BE7, #54BAB9) 1;
+    border-radius: 20px;
+
 }
 .reviewCard-container .avatar-stars-containter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100%;
     grid-area: 1 / 1 / 3/ 1;
 }
-.reviewCard-container h3{
-    grid-area: 3 / 1 / 5 / 1;
+.reviewCard-container .avatar-stars-containter .reviewCard-avatarImage{
+ 
+    height: 90%;
 }
-.reviewCard-container .paragraph-container{
+.reviewCard-container .avatar-stars-containter .reviewCard-starsScore{
+    height: 14px;
+}
+.reviewCard-container .reviewCard-userName{
+    grid-area: 3 / 1 / 4 / 1;
+}
+.reviewCard-container .description-container{
     grid-area: 4 / 1 / 7 / 1;
+    height: 100%;
+}
+@media (max-width: 480px) {
+    .reviewCard-container{
+        display: grid;
+        width: 100%;
+        height: 30vh;
+        padding: 20px;
+        grid-template: repeat(6, 1fr)/ 1fr;
+        border: 1px solid;
+        border-image: linear-gradient(#955BE7, #54BAB9) 1;
+        border-radius: 20px;
+    
+    }
 }
