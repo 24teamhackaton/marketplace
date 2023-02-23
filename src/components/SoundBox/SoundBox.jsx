@@ -1,5 +1,5 @@
 import { useRef } from "react";
-import "./Soundbox.css";
+import "./soundbox.css";
 import { useState } from "react";
 import wavesImg from '../../assets/waves.gif'
 import playButton from "../../assets/buttonPlay.png";
