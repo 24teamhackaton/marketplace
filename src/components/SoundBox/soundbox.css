@@ -1,0 +1,65 @@
+.soundBox-article {
+  width: 160px;
+}
+.box{
+    background: #C4C4C4;
+    border-radius: 15px;
+    width: 100%;
+    Height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.playButton{
+    background-color: transparent;
+    border:none;
+    cursor: pointer;
+}
+.playButton>img{
+  height: 68px;
+}
+.playButton>img:hover{
+  filter: invert(66%) sepia(56%) saturate(352%) hue-rotate(134deg) brightness(89%) contrast(87%);
+  transform: scale(1.2);
+  transition: transform 0.3s ease;
+}
+
+.audioControl {
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+}
+
+.waveImg{
+  position: relative;
+  left: -10px;
+  height: 70px;
+  overflow: hidden;
+}
+.soundBox-title{
+  color: var(--violet-color);
+  font-size: 1.2rem;
+    width: 100%;
+      font-size: .9rem;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      overflow: hidden;
+}
+.soundBox-stars{
+  height: 14px;
+}
+.soundBox-firstLine{
+  width: 160px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.soundBox-subtitle {
+  width: 100%;
+  margin-top: -8px;
+  font-size: .8rem;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}

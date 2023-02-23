@@ -1,13 +1,6 @@
 [
   {
-    "title": "Smooth Jazz Voice",
-    "description": "A deep and sultry voice perfect for late night radio",
-    "author": "Jazz Smith",
-    "type": "Baritone",
-    "author_avatar": "URL",
-    "score": 4
-  },
-  {
+    "id": 1,
     "title": "Powerful Opera Voice",
     "description": "A soaring voice that can fill a concert hall",
     "author": "Isabella Rossi",
@@ -16,6 +9,7 @@
     "score": 3
   },
   {
+    "id": 2,
     "title": "Warm and Fuzzy Voice",
     "description": "A comforting voice that makes you feel like everything will be okay",
     "author": "John Ideep",
@@ -24,6 +18,7 @@
     "score": 5
   },
   {
+    "id": 3,
     "title": "Ethereal Voice",
     "description": "A haunting voice that seems to come from another world",
     "author": "Luna Moon",
@@ -32,6 +27,7 @@
     "score": 2
   },
   {
+    "id": 4,
     "title": "The Mysterious Voice",
     "description": "A voice that leaves you wondering what secrets it holds",
     "author": "Max Steele",
@@ -40,6 +36,7 @@
     "score": 4
   },
   {
+    "id": 5,
     "title": "The Voice of an Angel",
     "description": "A pure and heavenly voice that touches the soul",
     "author": "Aria Sky",
@@ -48,6 +45,7 @@
     "score": 5
   },
   {
+    "id": 6,
     "title": "The Smoky Voice",
     "description": "A voice that seems to have been soaked in whiskey and smoke",
     "author": "Johnny Blaze",
@@ -56,6 +54,7 @@
     "score": 3
   },
   {
+    "id": 7,
     "title": "The Smooth Crooner",
     "description": "A voice that can make even the toughest heart swoon",
     "author": "Frankie Blue",
@@ -64,6 +63,7 @@
     "score": 4
   },
   {
+    "id": 8,
     "title": "The Romantic Voice",
     "description": "A voice that makes you believe in love at first sound",
     "author": "Mia Amore",
@@ -72,6 +72,7 @@
     "score": 4
   },
   {
+    "id": 9,
     "title": "The Commanding Voice",
     "description": "A voice that can take charge of any room",
     "author": "Dominic Power",
@@ -80,6 +81,7 @@
     "score": 2
   },
   {
+    "id": 10,
     "title": "The Enigmatic Voice",
     "description": "A voice that holds a mystery that can't be unraveled",
     "author": "Violet Mist",
@@ -88,6 +90,7 @@
     "score": 3
   },
   {
+    "id": 11,
     "title": "The Ethereal Voice",
     "description": "A voice that seems to come from the heavens",
     "author": "Eliana Moon",
@@ -96,6 +99,7 @@
     "score": 4
   },
   {
+    "id": 12,
     "title": "The Soulful Voice",
     "description": "A voice that can make your heart ache with every note",
     "author": "Levi Blues",
@@ -104,6 +108,7 @@
     "score": 5
   },
   {
+    "id": 13,
     "title": "The Gentle Voice",
     "description": "A voice that's as soothing as a lullaby",
     "author": "Willow Grace",
@@ -112,6 +117,7 @@
     "score": 4
   },
   {
+    "id": 14,
     "title": "The Dramatic Voice",
     "description": "A voice that can bring any character to life",
     "author": "Antonio Rossi",
@@ -120,6 +126,7 @@
     "score": 3
   },
   {
+    "id": 15,
     "title": "The Jazzy Voice",
     "description": "A voice that swings and grooves like no other",
     "author": "Lena Blue",
@@ -128,6 +135,7 @@
     "score": 4
   },
   {
+    "id": 16,
     "title": "The Sultry Voice",
     "description": "A voice that oozes with sensuality and passion",
     "author": "Gia Noir",
@@ -136,6 +144,7 @@
     "score": 5
   },
   {
+    "id": 17,
     "title": "The Angelic Voice",
     "description": "A voice that's pure and heavenly, with a touch of magic",
     "author": "Michaela Sky",
@@ -144,6 +153,7 @@
     "score": 3
   },
   {
+    "id": 18,
     "title": "The Deep and Rich Voice",
     "description": "A voice that's as smooth as velvet and as powerful as thunder",
     "author": "Vincent Black",
@@ -152,6 +162,7 @@
     "score": 4
   },
   {
+    "id": 19,
     "title": "The Haunting Voice",
     "description": "A voice that stays with you long after the song is over",
     "author": "Evelyn Nightshade",
@@ -160,6 +171,7 @@
     "score": 2
   },
   {
+    "id": 20,
     "title": "The Smooth and Sultry Voice",
     "description": "A voice that can make you weak in the knees",
     "author": "Sofia Flame",
@@ -168,6 +180,7 @@
     "score": 5
   },
   {
+    "id": 21,
     "title": "The Powerful Voice",
     "description": "A voice that can move mountains and shake the earth",
     "author": "Maximus Strong",
@@ -176,6 +189,7 @@
     "score": 4
   },
   {
+    "id": 22,
     "title": "The Lyrical Voice",
     "description": "A voice that's like poetry in motion",
     "author": "Raven Song",
@@ -184,10 +198,20 @@
     "score": 3
   },
   {
+    "id": 23,
     "title": "The Dark and Edgy Voice",
     "description": "A voice that's as dangerous and thrilling as a rollercoaster",
     "author": "Jett Black",
     "type": "Bass",
+    "author_avatar": "URL",
+    "score": 4
+  },
+  {
+    "id": 24,
+    "title": "Smooth Jazz Voice",
+    "description": "A deep and sultry voice perfect for late night radio",
+    "author": "Jazz Smith",
+    "type": "Baritone",
     "author_avatar": "URL",
     "score": 4
   }
