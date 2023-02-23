@@ -5,6 +5,7 @@
     grid-template: repeat(6, 1fr)/ 1fr;
     background: var(--semiblack-color);
     border-radius: 20px;
+    
 
 }
 .reviewCard-container .avatar-stars-containter{
@@ -56,4 +57,11 @@
     .reviewCard-container .avatar-stars-containter .reviewCard-starsScore{
         height: 14px;
     }
+        .reviewCard-description-paragraph{
+            width: 50%;
+        }
+        .description-container{
+            background-color: #fff;
+            width: 100%;
+        }
 }
