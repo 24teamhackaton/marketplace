@@ -1,0 +1,18 @@
+.ButtonUp{
+    position: fixed;
+    right: 3vh;
+    bottom: 2vh;
+} 
+ 
+ .ButtonUp-button {
+    height: 4vh;
+    background: linear-gradient(#955BE7, #54BAB9);
+    border-radius: 100%;
+    border: none;
+   cursor:pointer;
+    
+} 
+
+.ButtonUp-button img{
+    height: 2vh;
+}
