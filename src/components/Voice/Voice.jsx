@@ -29,7 +29,9 @@ function Voice(){
             </div>    
             </div>
         </div>
-    )
+      
+    
+  );
 }
 
-export default Voice
+export default Voice;

@@ -4,7 +4,7 @@ import spanImg from "../../assets/spanimage.png";
 const SectionHeading = ({title}) => {
   return (
     <div className="sectionHeading-wrapper">
-        <img className="sectionHeading-img" src={spanImg} alt="waves image" />
+        <img className="sectionHeading-img" src={spanImg} alt="waves" />
         <h1>{title}</h1>
     </div>
   )
