@@ -11,19 +11,16 @@ import fourStarImg from "../../assets/4stars.png";
 import fiveStarImg from "../../assets/5stars.png";
 import data from "../../data/dataVoices.json";
 
-function SoundBox() {
-
-  //Random bg image
-  const randomIndex = Math.floor(Math.random() * imageUrls.length);
-  const backgroundImage = `url(${imageUrls[randomIndex]})`;
-
-  const [bgImage, setBgImage] = useState(backgroundImage)
+function SoundBox({id}) {
 
   //Data import
-  const randomIndexData = Math.floor(Math.random() * data.length); 
-  const [dataSelected, setdataSelected] = useState(data[randomIndexData])
+  const indexData = data[id-1]; 
+  const [dataSelected, setdataSelected] = useState(indexData)
+  
+  //Random bg image 
+  const [bgImage, setBgImage] = useState(`url(${dataSelected.author_bg})`)
+  
   //Audio controller
-
    const [state, setState] = useState(false);
 
   const audioRef = useRef();
