@@ -3,6 +3,7 @@
     flex-wrap: wrap;
     background-image: linear-gradient(to right, #935FE6, #57B7BB);
     padding: 20px;
+    justify-content: center;
 }
 
 .footerRow {
