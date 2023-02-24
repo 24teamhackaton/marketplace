@@ -2,6 +2,7 @@ import "./Detail.css";
 import ButtonShow from "../../components/ButtonShow/ButtonShow";
 import ContactForm from "../../components/ContactForm/ContactForm";
 import { useState } from "react";
+import ButtonFav from "../../components/ButtonFav/ButtonFav";
 
 const Detail = () => {
   const [isContact, setIsContact] = useState(false);
@@ -29,8 +30,13 @@ const Detail = () => {
 
             <h2>{product.author}</h2>
             <p>{product.description}</p>
+          <div className="detail-card-wrapper-buttons">
             <div onClick={handleClick}>
               <ButtonShow text={"Contact"} />
+            </div>
+            <div>
+              <ButtonFav/>
+            </div>
             </div>
           </div>
         )}

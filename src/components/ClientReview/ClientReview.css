@@ -1,0 +1,76 @@
+.containerCard {
+    display: flex;
+    justify-content: center;
+    gap: 5vw;
+}
+
+.cardBase {
+    width: 20vw;
+    min-height: 40vh;
+    background: #000000;
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.cardBase::before {
+    content: '';
+    position: absolute;
+    width: 100px;
+    background-image: linear-gradient(180deg, #935FE6, #57B7BB);
+    height: 130%;
+    animation: rotBGimg 7s linear infinite;
+    transition: all 0.2s linear;
+}
+
+.cardBase::after {
+    content: '';
+    position: absolute;
+    background: #000000;
+    inset: 5px;
+    border-radius: 15px;
+}  
+
+.cardContent {
+    z-index: 1;
+    margin: 2em;
+}
+
+.contentPhoto {
+    font-size: 5em;
+}
+
+#textName {
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+#textReview {
+    font-size: 0.8em;
+}
+
+@keyframes rotBGimg {
+  from {
+    transform: rotate(0deg);
+  }
+  
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media screen and (max-width:480px){
+  .containerCard {
+    flex-direction: column;
+    align-items: center;
+
+  }
+
+  .cardBase {
+    width: 80%;
+  }
+  }

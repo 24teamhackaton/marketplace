@@ -33,9 +33,11 @@ border-radius: 1rem;
     font-weight: 400;
 
 }
-.detail-card-wrapper>p {}
+.detail-card-wrapper-buttons {
+    display: flex;
+}
 
-@media (min-width: 380px) {
+@media (min-width: 480px) {
     .detail-wrapper {
             display: flex;
             flex-direction: row;

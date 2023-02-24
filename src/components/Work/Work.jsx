@@ -11,11 +11,9 @@ function Work() {
           <img className="img-work" src={Image} width="50%" alt="voice" />
           <div className="card-text-work">
             <h2 className="title-work">Sell your voice</h2>
-            <h3 className="subtitle-work">Subtitle</h3>
+            <h3 className="subtitle-work"> Have you ever dreamed of giving voice to others?</h3>
             <p className="description-work">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s,
+            Contact us to start selling your voice with us. We inform you without obligation. 
             </p>
             <div className="moreinfo">
               <ButtonShow text="More info"/>

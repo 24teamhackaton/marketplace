@@ -48,7 +48,7 @@ const Navbar = () => {
               to="workWithUs"
               spy={true}
               smooth={true}
-              offset={-70}
+              offset={-150}
               duration={500}
             >
               Work with us
@@ -58,10 +58,10 @@ const Navbar = () => {
             <Link
               className="navBar-link"
               activeClass="active"
-              to=""
+              to="Review"
               spy={true}
               smooth={true}
-              offset={-70}
+              offset={-150}
               duration={500}
             >
               Reviews

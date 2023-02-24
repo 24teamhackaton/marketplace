@@ -11,6 +11,7 @@ import { faFacebookF } from "@fortawesome/free-brands-svg-icons";
 import { faInstagram } from "@fortawesome/free-brands-svg-icons";
 import { faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
 
+
 const Footer = () => {
     return (
         <footer id="Footer" className="containerFooter">
@@ -21,25 +22,27 @@ const Footer = () => {
                             alt="White logo from Real Dream Voices"
                         />
                         <p id="infoDescription">
-                        Lorem Ipsum is simply dummy text of the printing 
-                        and typesetting industry. Lorem Ipsum has been 
-                        the industry's standard.
+                       In Real Dream Voices we are specialized in selling all kinds of 
+                       voices to fulfill all kinds of dreams. 
                         </p>
                         <Link id="infoTerms" to="/" element={ <Home /> }>
                             Privacy & Cookie Policy
                         </Link>
                 </div>
 
-                <div className="footerColumn">
+                <div >
+                    <div className="footerColumn">
                     <h3 className="footerTitle">
                         Contact
                     </h3>
+                    </div>
+                    
                     <ul className="contactOption">
-                        <li className="optionEmailTelephone"><FontAwesomeIcon icon={ faEnvelope }/>
+                        <li className="optionEmailTelephone"><FontAwesomeIcon style={{margin:"0"}} icon={ faEnvelope }/>
                             contact@realdreamvoices.com
                         </li>
-                        <li className="optionEmailTelephone"><FontAwesomeIcon icon={ faPhone }/>
-                            +34 985 73 33 11
+                        <li className="optionEmailTelephone"><FontAwesomeIcon style={{margin:"0"}} icon={ faPhone }/>
+                            +34 985 73 33 11 
                         </li>
                     </ul>
                 </div>
@@ -48,24 +51,29 @@ const Footer = () => {
                     <h3 className="footerTitle">
                         Social media
                     </h3>
+                    <div className="footerColumn-mediaLinks">
+                    <a className="buttonMedia" href="https://twitter.com/" target="_blank" alt="Follow us on Twitter!">
                     <button className="buttonMedia">
-                            <a href="https://twitter.com/" target="_blank" alt="Follow us on Twitter!"/>
                             <FontAwesomeIcon icon={ faTwitter }/>
-                        </button>
+                        </button></a>
+                            <a className="buttonMedia" href="https://facebook.com/" target="_blank" alt="Follow us on Facebook!">
                         <button className="buttonMedia">
-                            <a href="https://facebook.com/" target="_blank" alt="Follow us on Facebook!"/>
                             <FontAwesomeIcon icon={ faFacebookF }/>
                         </button>
-                        <button className="buttonMedia">
-                            <a href="https://instagram.com/" target="_blank" alt="Follow us on Instagram!"/>
+                        </a>
+                        <a className="buttonMedia" href="https://instagram.com/" target="_blank" alt="Follow us on Instagram!">
+                        <button className="buttonMedia" >
                             <FontAwesomeIcon icon={ faInstagram }/>
                         </button>
-                        <button className="buttonMedia">
-                            <a href="https://linkedin.com/" target="_blank" alt="Follow us on Linkedin!"/>
-                            <FontAwesomeIcon icon={ faLinkedinIn }/>
+                        </a>
+                        <a className="buttonMedia" href="https://linkedin.com/" target="_blank" alt="Follow us on Linkedin!">
+                        <button className="buttonMedia">                            
+                           <FontAwesomeIcon icon={ faLinkedinIn }/>
                         </button>
+                        </a>
+                        </div>
                 </div>
-
+                
                 <div className="footerColumn">
                     <p id="copyrightText">© Copyright 2023 Real Dream Voices</p>
                 </div>
