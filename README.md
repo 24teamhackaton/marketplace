@@ -67,6 +67,12 @@ Run the npm start command to run the React app. It will automatically open the l
 - Pair Programming.
 - TDD.
 
+## 👀 TEST
+	
+![image](https://user-images.githubusercontent.com/116561400/221122084-c07b9534-9a77-45ad-96b4-4dab94eeabcc.png)
+
+
+
 ## 🧪Next Steps:
 	+ increase the number of voices available
 	+ add login
