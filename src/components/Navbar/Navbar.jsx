@@ -35,7 +35,7 @@ const Navbar = () => {
               to="soundBox"
               spy={true}
               smooth={true}
-              offset={-270}
+              offset={-300}
               duration={500}
             >
               Voices
@@ -48,7 +48,7 @@ const Navbar = () => {
               to="workWithUs"
               spy={true}
               smooth={true}
-              offset={-70}
+              offset={-200}
               duration={500}
             >
               Work with us
@@ -58,10 +58,10 @@ const Navbar = () => {
             <Link
               className="navBar-link"
               activeClass="active"
-              to=""
+              to="Review"
               spy={true}
               smooth={true}
-              offset={-70}
+              offset={-200}
               duration={500}
             >
               Reviews

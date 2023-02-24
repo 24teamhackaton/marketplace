@@ -15,15 +15,15 @@ function Voice(){
                 to="faqs"
                 spy={true}
                 smooth={true}
-                offset={-70}
+                offset={-200}
                 duration={500}
               >More info</Link></button>
                 <button className='voice-buttons-voices'><Link
                 activeClass="active"
-                to="Footer"
+                to="soundBox"
                 spy={true}
                 smooth={true}
-                offset={-70}
+                offset={-300}
                 duration={500}
               >Voices</Link></button>
             </div>    
