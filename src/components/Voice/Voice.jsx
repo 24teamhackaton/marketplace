@@ -15,7 +15,7 @@ function Voice(){
                 to="faqs"
                 spy={true}
                 smooth={true}
-                offset={-150}
+                offset={-200}
                 duration={500}
               >More info</Link></button>
                 <button className='voice-buttons-voices'><Link
@@ -23,7 +23,7 @@ function Voice(){
                 to="soundBox"
                 spy={true}
                 smooth={true}
-                offset={-260}
+                offset={-300}
                 duration={500}
               >Voices</Link></button>
             </div>    
